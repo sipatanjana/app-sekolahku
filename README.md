@@ -20,6 +20,10 @@ php artisan shield:super-admin --user=1
 ```
 - lalu lakukan serve app
 ```bash
-php artisan shield:super-admin --user=1
+php artisan serve
 ```
 - untuk melakukan akses panel dashboard bisa ke `{APP URL}/admin` , dan login menggunakan user yang yang sudah di lakukan seeder, secara automatis andi@andi.com akan menjadi super_admin, collection json saya sertakan pada folder root app 
+- untuk menjalankan testing
+```bash
+php artisan test
+```
